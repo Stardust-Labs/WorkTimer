@@ -10,7 +10,12 @@ worked time in order to accurately figure contract time billed.  The application
 consists of two main elements - the timer notebook and the system.  
 The system displays output and copyright information, and is only a small bar 
 at the bottom of the window.
-The timer notebook contains an 
+The timer notebook contains one instance of the actual work timer, which is 
+defined in the create_timer function and added to the notebook via that
+function.  Important elements are made accessible by adding them to the timer_dict.
+The actual time functionality is contained in the Timer class, whose tick function
+is called for every instance of the timer in the WorkTimer tick function, which 
+uses tkinter await to call a tick every second.
 
 '''
 
@@ -237,6 +242,7 @@ class WorkTimer:
 		notebook.add(this_timer['masterframe'], text='New Timer')
 
 	def save_timelog(self, timer):
+		self.system_update('Logging {desc} time...'.format(desc=timer['desc'].get()))
 		description = timer['desc'].get()
 
 		time = '{date} {h}:{m}:{s} - {desc}\r\n'.format(
@@ -250,7 +256,10 @@ class WorkTimer:
 		with open('timelog.txt', 'a') as timelog:
 			timelog.write(time)
 
+		self.system_update('{desc} time logged.'.format(desc=timer['desc'].get()))
+
 	def save_report(self, timer):
+		self.system_update('Saving {desc} report...'.format(desc=timer['desc'].get()))
 		todo_header = '---=== TODO ===---\r\n\r\n'
 		done_header = '---=== DONE ===---\r\n\r\n'
 		notes_header = '---=== NOTES ===---\r\n\r\n'
@@ -273,7 +282,11 @@ class WorkTimer:
 		with open(filename + '.txt', 'w') as report:
 			report.write(output_text)
 
+		self.system_update('{desc} report saved.'.format(desc=timer['desc'].get()))
+
 	def load_report(self, timer):
+		self.system_update('Loading {file}'.format(file=timer['filename'].get()))
+
 		filename = timer['filename'].get()
 
 		with open(filename + '.txt', 'r') as report:
@@ -296,6 +309,8 @@ class WorkTimer:
 			timer['notes'].delete('1.0', END)
 			timer['notes'].insert(END, notes_text)
 
+		self.system_update('{file} loaded.'.format(file=timer['filename'].get()))
+
 	def tick(self):
 		for work_timer in self.timer_dict:
 			self.timer_dict[work_timer]['timer'].tick(self.timer_dict[work_timer])
@@ -304,6 +319,9 @@ class WorkTimer:
 	def update_tab(self, event, tab_id, entry_widget):
 		updated_title = entry_widget.get()
 		self.timer_notebook.tab(tab_id, text=updated_title)
+
+	def system_update(self, sys_text):
+		self.system_output.config(text=sys_text)
 
 root = Tk()
 gui = WorkTimer(root)
