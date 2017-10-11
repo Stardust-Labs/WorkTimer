@@ -329,7 +329,7 @@ root = Tk()
 
 # find current path and set the icon
 ABSPATH = os.path.abspath(os.curdir)
-icon_path = ABSPATH + r'/WorkTimerIcon.ico'
+icon_path = ABSPATH + r'/WorkTimerIcon.png'
 
 root.iconbitmap(icon_path)
 
