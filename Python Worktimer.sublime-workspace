@@ -1,0 +1,410 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "python_worktimer.pyw",
+			"settings":
+			{
+				"buffer_size": 1180,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "python_worktimer_test.py",
+			"settings":
+			{
+				"buffer_size": 1185,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "timer.py",
+			"settings":
+			{
+				"buffer_size": 1351,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "worktimer_test.py",
+			"settings":
+			{
+				"buffer_size": 10250,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "sspy",
+		"selected_items":
+		[
+			[
+				"sspy",
+				"Set Syntax: Python"
+			],
+			[
+				"sspython",
+				"Set Syntax: Python"
+			],
+			[
+				"sssql",
+				"Set Syntax: SQL"
+			],
+			[
+				"ssp",
+				"Set Syntax: Python"
+			],
+			[
+				"ssphp",
+				"Set Syntax: PHP"
+			],
+			[
+				"sshtml",
+				"Set Syntax: HTML"
+			],
+			[
+				"sscss",
+				"Set Syntax: CSS"
+			],
+			[
+				"ssrege",
+				"Set Syntax: Regular Expression"
+			],
+			[
+				"ssjs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ssjavasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ssjava",
+				"Set Syntax: Java"
+			],
+			[
+				"ssc",
+				"Set Syntax: C++"
+			],
+			[
+				"sspyth",
+				"Set Syntax: Python"
+			]
+		],
+		"width": 444.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Ekrut/Documents/Scripts/flask_sandbox.py",
+		"/C/Users/Ekrut/Documents/Making Movies Homepage Fix.css",
+		"/C/Users/Ekrut/Documents/Death Crystals/Death Crystals concept notes",
+		"/C/Users/Ekrut/Documents/Programs/WorkTimer/worktimer.py",
+		"/C/Users/Ekrut/Documents/Programs/WorkTimer/timer.py",
+		"/C/Users/Ekrut/Documents/Scripts/ym_email_form_letter_writer.pyw",
+		"/C/Users/Ekrut/Documents/Scripts/python_worktimer.pyw",
+		"/C/Users/Ekrut/Documents/Flask Apps/flaskr/flaskr/schema.sql",
+		"/C/Users/Ekrut/Documents/Scripts/mm_redirect_server.py",
+		"/C/Users/Ekrut/Documents/Programs/WorkTimer/python_worktimer.py",
+		"/C/Users/Ekrut/Documents/Flask Apps/flaskr/flaskr/__init__.py",
+		"/C/Users/Ekrut/Downloads/arrrgh.php",
+		"/C/Users/Ekrut/Downloads/oh_please_god.html",
+		"/C/Users/Ekrut/Documents/Scripts/CharacterCounter.pyw",
+		"/C/Users/Ekrut/Documents/Web Dev/Yonas Media/Jeremy Kittel/tour dates wordpress.html",
+		"/C/Users/Ekrut/Documents/Web Dev/Yonas Media/Jeremy Kittel/tour dates wordpress sidebar.html",
+		"/C/Users/Ekrut/Documents/Scripts/STARDEW_DETECTOR.py",
+		"/C/Users/Ekrut/Documents/Django Projects/YonasMediaMetrics/metrics/cron.py",
+		"/C/Users/Ekrut/Documents/Programs/WorkTimer/python_worktimer.pyw",
+		"/C/Users/Ekrut/Documents/Web Dev/Soundways/rin-m pro centering css.css",
+		"/C/Users/Ekrut/Documents/Scripts/new_notebook_creator_POC.py",
+		"/C/Users/Ekrut/Documents/Scripts/python_worktimer_WIP.py",
+		"/C/Users/Ekrut/Documents/Django Projects/YonasMediaMetrics/metrics/models.py",
+		"/C/Users/Ekrut/Documents/Django Projects/YonasMediaMetrics/YonasMediaMetrics/settings.py",
+		"/C/Users/Ekrut/Documents/Django Projects/BlueTomMetrics/metrics/models.py",
+		"/C/Users/Ekrut/Downloads/thing.reg",
+		"/C/Users/Ekrut/Downloads/kittel_emails.csv",
+		"/C/Users/Ekrut/Pictures/tumblr_ovdkdxPtSe1w169g0o1_500.gif",
+		"/C/Users/Ekrut/Pictures/l8Fw7fq.jpg",
+		"/C/Users/Ekrut/Pictures/tumblr_ot1ql3V2fV1r5kws5o2_1280.png",
+		"/C/Users/Ekrut/Pictures/tumblr_ot87qlJqGU1vn87q9o1_1280.jpg",
+		"/C/Users/Ekrut/Pictures/tumblr_owblg4F8ID1ryy28to1_1280.png",
+		"/C/Users/Ekrut/Desktop/ben phone notes 9-15.txt"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"(<td class=\"jeremy-tours\">[A-Za-z 0-9]+</td>\\n\\t\\t)<td class=\"jeremy-tours\">([A-Za-z 0-9,'&;]+)</td>\\n\\t\\t<td class=\"jeremy-tours\">([A-Za-z 0-9,']+)</td>(\\n\\t\\t<td class=\"jeremy-tours\"><a href=\".*\" target=\"_blank\">[A-Za-z]*</a></td>)",
+			"<td>",
+			"system_update",
+			"todo:",
+			"todo",
+			"even",
+			"systemframe",
+			"notebook",
+			"system_output"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"\\1<td class=\"jeremy-tours\">\\2<br />\\3</td>\\4",
+			"(\\1)<td class=\"jeremy-tours\">(\\2)<br />(\\3)</td>(\\4)",
+			"<td class=\"jeremy-tours\">"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "python_worktimer.pyw",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1180,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "python_worktimer_test.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1185,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								185,
+								185
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "timer.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1351,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "worktimer_test.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10250,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7619,
+								7619
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2567.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
