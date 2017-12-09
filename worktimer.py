@@ -1,5 +1,6 @@
 from tkinter import Tk, Label, Button, Text, Frame, Entry
 from tkinter import N, E, S, W, END
+from tkinter import messagebox
 from tkinter.ttk import Notebook
 
 from datetime import date
@@ -168,6 +169,12 @@ class WorkTimer:
 		text_save_button.grid(row=0, column=0, padx=5, pady=5, sticky=E)
 		text_load_button.grid(row=0, column=1, padx=5, pady=5, sticky=E)
 
+		# instantiate notebook delete button
+		timer_delete_button = Button(text_system_frame, text='Delete Timer', command=lambda: self.destroy_timer(this_timer), anchor=E)
+
+		# grid notebook delete button
+		timer_delete_button.grid(row=0, column=2, padx=5, pady=5, sticky=E)
+
 		# grid all textframe internal frames
 		filename_frame.grid   (row=0, column=0)
 		text_editor_frame.grid(row=1, column=0)
@@ -180,6 +187,14 @@ class WorkTimer:
 		# add the timer to the main notebook
 		this_timer['masterframe'].grid()
 		notebook.add(this_timer['masterframe'], text='New Timer')
+
+	def destroy_timer(self, timer):
+		name = timer['desc'].get()
+		title = 'Deleting timer {timer_name}'.format(timer_name=name)
+		message = 'Are you sure you want to delete {timer_name}?'.format(timer_name=name)
+		destroy = messagebox.askquestion(title, message)
+		if destroy:
+			self.timer_notebook.forget(timer['masterframe'])
 
 	def save_timelog(self, timer):
 		self.system_update('Logging {desc} time...'.format(desc=timer['desc'].get()))
@@ -219,7 +234,7 @@ class WorkTimer:
 
 		filename = timer['filename'].get()
 
-		with open(filename + '.txt', 'w') as report:
+		with open('reports/' + filename + '.txt', 'w') as report:
 			report.write(output_text)
 
 		self.system_update('{desc} report saved.'.format(desc=timer['desc'].get()))

@@ -6,7 +6,7 @@ from datetime import date
 
 import os
 
-from worktimer_test import *
+from worktimer import *
 
 '''
 The WorkTimer is a tkinter application which allows the user to keep track of
