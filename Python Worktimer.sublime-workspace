@@ -7,6 +7,15 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "python_worktimer.pyw",
+			"settings":
+			{
+				"buffer_size": 1179,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -96,10 +105,12 @@
 	],
 	"file_history":
 	[
+		"/C/Users/Ekrut/Documents/Programs/WorkTimer/python_worktimer_test.py",
+		"/C/Users/Ekrut/Documents/Programs/WorkTimer/worktimer.py",
+		"/C/Users/Ekrut/Documents/Programs/WorkTimer/worktimer_test.py",
 		"/C/Users/Ekrut/Documents/Scripts/flask_sandbox.py",
 		"/C/Users/Ekrut/Documents/Making Movies Homepage Fix.css",
 		"/C/Users/Ekrut/Documents/Death Crystals/Death Crystals concept notes",
-		"/C/Users/Ekrut/Documents/Programs/WorkTimer/worktimer.py",
 		"/C/Users/Ekrut/Documents/Programs/WorkTimer/timer.py",
 		"/C/Users/Ekrut/Documents/Scripts/ym_email_form_letter_writer.pyw",
 		"/C/Users/Ekrut/Documents/Scripts/python_worktimer.pyw",
@@ -163,8 +174,37 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "python_worktimer.pyw",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1179,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1163,
+								1163
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],

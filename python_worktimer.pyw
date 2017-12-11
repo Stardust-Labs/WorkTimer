@@ -6,7 +6,7 @@ from datetime import date
 
 import os
 
-from worktimer import *
+from timer.worktimer import *
 
 '''
 The WorkTimer is a tkinter application which allows the user to keep track of
@@ -27,7 +27,7 @@ root = Tk()
 
 # find current path and set the icon
 ABSPATH = os.path.abspath(os.curdir)
-icon_path = ABSPATH + r'/WorkTimerIcon.ico'
+icon_path = ABSPATH + r'/assets/WorkTimerIcon.ico'
 
 root.iconbitmap(icon_path)
 

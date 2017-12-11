@@ -7,7 +7,7 @@ from datetime import date
 
 import os
 
-from timer import *
+from .timer import *
 
 class WorkTimer:
 	def __init__(self, master):
